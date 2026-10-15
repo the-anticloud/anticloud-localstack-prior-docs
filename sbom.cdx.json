@@ -1,0 +1,214 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f580a03a-fcc6-5f8f-8e00-dabe2d0deb1e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:22:34Z",
+    "component": {
+      "type": "application",
+      "name": "LOCALSTACK_PRIOR_DOCS",
+      "version": "8b9a79f05846",
+      "bom-ref": "pkg:generic/anticloud/LOCALSTACK_PRIOR_DOCS@8b9a79f05846",
+      "purl": "pkg:generic/anticloud/LOCALSTACK_PRIOR_DOCS@8b9a79f05846",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "8b9a79f05846835cf4dff63ab7eefdde9df83783"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/localstack/localstack"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "asn1crypto",
+      "version": ">=1.5.1",
+      "purl": "pkg:pypi/asn1crypto@1.5.1",
+      "bom-ref": "pypi/asn1crypto@>=1.5.1"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": ">=8.2.0",
+      "purl": "pkg:pypi/click@8.2.0",
+      "bom-ref": "pypi/click@>=8.2.0"
+    },
+    {
+      "type": "library",
+      "name": "cachetools",
+      "version": ">=5.0",
+      "purl": "pkg:pypi/cachetools@5.0",
+      "bom-ref": "pypi/cachetools@>=5.0"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "unspecified",
+      "purl": "pkg:pypi/cryptography",
+      "bom-ref": "pypi/cryptography@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dnslib",
+      "version": ">=0.9.10",
+      "purl": "pkg:pypi/dnslib@0.9.10",
+      "bom-ref": "pypi/dnslib@>=0.9.10"
+    },
+    {
+      "type": "library",
+      "name": "dnspython",
+      "version": ">=1.16.0",
+      "purl": "pkg:pypi/dnspython@1.16.0",
+      "bom-ref": "pypi/dnspython@>=1.16.0"
+    },
+    {
+      "type": "library",
+      "name": "plux",
+      "version": ">=1.14.0",
+      "purl": "pkg:pypi/plux@1.14.0",
+      "bom-ref": "pypi/plux@>=1.14.0"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": ">=5.4.8",
+      "purl": "pkg:pypi/psutil@5.4.8",
+      "bom-ref": "pypi/psutil@>=5.4.8"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": ">=0.19.1",
+      "purl": "pkg:pypi/python-dotenv@0.19.1",
+      "bom-ref": "pypi/python-dotenv@>=0.19.1"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": ">=5.1",
+      "purl": "pkg:pypi/pyyaml@5.1",
+      "bom-ref": "pypi/pyyaml@>=5.1"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": ">=12.3.0",
+      "purl": "pkg:pypi/rich@12.3.0",
+      "bom-ref": "pypi/rich@>=12.3.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.20.0",
+      "purl": "pkg:pypi/requests@2.20.0",
+      "bom-ref": "pypi/requests@>=2.20.0"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": ">=2.10",
+      "purl": "pkg:pypi/semver@2.10",
+      "bom-ref": "pypi/semver@>=2.10"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "bootstrap",
+      "purl": "pkg:cargo/name@bootstrap",
+      "bom-ref": "cargo/name@bootstrap"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.1.0",
+      "purl": "pkg:cargo/version@0.1.0",
+      "bom-ref": "cargo/version@0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2021",
+      "purl": "pkg:cargo/edition@2021",
+      "bom-ref": "cargo/edition@2021"
+    },
+    {
+      "type": "library",
+      "name": "lambda_http",
+      "version": "0.5",
+      "purl": "pkg:cargo/lambda_http@0.5",
+      "bom-ref": "cargo/lambda_http@0.5"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_json@1.0",
+      "bom-ref": "cargo/serde_json@1.0"
+    },
+    {
+      "type": "library",
+      "name": "tokio",
+      "version": "1.18",
+      "purl": "pkg:cargo/tokio@1.18",
+      "bom-ref": "cargo/tokio@1.18"
+    },
+    {
+      "type": "library",
+      "name": "github.com/aws/aws-lambda-go",
+      "version": "v1.34.1",
+      "purl": "pkg:golang/github.com/aws/aws-lambda-go@v1.34.1",
+      "bom-ref": "go/github.com/aws/aws-lambda-go@v1.34.1"
+    },
+    {
+      "type": "library",
+      "name": "lambda_runtime",
+      "version": "1.0",
+      "purl": "pkg:cargo/lambda_runtime@1.0",
+      "bom-ref": "cargo/lambda_runtime@1.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/aws/aws-sdk-go",
+      "version": "v1.44.179",
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.179",
+      "bom-ref": "go/github.com/aws/aws-sdk-go@v1.44.179"
+    },
+    {
+      "type": "library",
+      "name": "github.com/jmespath/go-jmespath",
+      "version": "v0.4.0",
+      "purl": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0",
+      "bom-ref": "go/github.com/jmespath/go-jmespath@v0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "serverless",
+      "version": "2.48.0",
+      "purl": "pkg:npm/serverless@2.48.0",
+      "bom-ref": "npm/serverless@2.48.0"
+    },
+    {
+      "type": "library",
+      "name": "serverless-localstack",
+      "version": "^0.4.30",
+      "purl": "pkg:npm/serverless-localstack@^0.4.30",
+      "bom-ref": "npm/serverless-localstack@^0.4.30"
+    }
+  ]
+}
